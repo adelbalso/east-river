@@ -53,6 +53,7 @@ button {
 	font-size: 26px;
 	min-width: 120px;
 	border-radius: 2px;
+	cursor: pointer;
 }
 
 button:hover, button:focus {
@@ -74,14 +75,20 @@ video {
 }
 
 .downArrow {
-	position:absolute;
-	height: 50px;
-	width: 100%;
-	bottom: -230px;
+	cursor: pointer;
+	position: fixed;
+	z-index: 1000;
+	background-color: purple;
+	padding: 40px 0;
+	left: 0; bottom: 0; right: 0;
 }
 
 .downArrow:hover svg polyline {
 	stroke: white;
+}
+
+.downArrow:hover {
+	background: rgb(90, 3, 90);
 }
 
 .jumbotron {
