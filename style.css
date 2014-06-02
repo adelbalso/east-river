@@ -89,6 +89,8 @@ video {
 
 .downArrow:hover {
 	background: rgb(90, 3, 90);
+	padding-top: 50px;
+	bottom: -10px;
 }
 
 .jumbotron {
